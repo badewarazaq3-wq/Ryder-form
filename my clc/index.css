@@ -105,18 +105,25 @@ media query
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  min-height:100vh;
   
 }
 form{
-  width: 375px;
+  width: 340px;
   padding: 10px;
   border: none;
   backdrop-filter: blur(0px);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin-top:27px;
+    
   
 }
 input{
-  width: 355px;
+  width: 330px;
   height: 100px;
   border-radius: 10px;
   outline: none;
@@ -133,7 +140,7 @@ input::placeholder{
   
 }
 button{
-  width: 85px;
+  width: 77px;
   height: 50px;
   margin-top: 15px;
   border-radius: 10px;
@@ -160,7 +167,7 @@ background-color: rgb(112, 180, 10);
   background-color: lightsteelblue;
 }
 .equalbtn{
-  width: 175px;
+  width: 155px;
   background-color: rgb(4, 129, 129);
 }
 h1{
